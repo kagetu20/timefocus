@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ================================
+# TimeFocus 追記
+# ================================
+
+# 環境変数・シークレット（絶対にGitに入れない）
+*.env
+.env
+.env.local
+application-local.yml
+application-local.yaml
+
+# Node.js（フロントエンド）
+node_modules/
+dist/
+.vite/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# ログ
+*.log
